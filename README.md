@@ -1,1 +1,1 @@
-# cozka-utils-web
+# @cozka/utils-web
