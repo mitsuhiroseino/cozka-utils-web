@@ -13,6 +13,10 @@
   "license": "MIT",
   "author": "Mitsuhiro Seino",
   "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*/index.ts"
+  },
   "scripts": {
     "build": "rimraf dist && rollup --config",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json}\"",
